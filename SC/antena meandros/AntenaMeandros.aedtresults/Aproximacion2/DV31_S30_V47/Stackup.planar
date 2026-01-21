@@ -1,0 +1,124 @@
+$begin 'Stackup'
+	$begin 'DatasetMgr'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='DesignDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'DatasetMgr'
+	$begin 'MaterialMgr'
+		$begin 'ProjectMaterials'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=242
+						Green=140
+						Blue=102
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permeability='0.999991'
+				conductivity='58000000'
+				thermal_conductivity='400'
+				mass_density='8933'
+				specific_heat='385'
+				youngs_modulus='120000000000'
+				poissons_ratio='0.38'
+				thermal_expansion_coefficient='1.77e-05'
+			$end 'copper'
+			$begin 'FR4_epoxy'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=27
+						Green=110
+						Blue=76
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='4.11483 + 0.0281238*ln( (2.53303e+22+freq*freq) / (4.95658e+09+freq*freq) )'
+				conductivity='1e-12 + 3.12919e-12*freq * ( atan(freq/70403) - atan(freq/1.59155e+11) )'
+				dielectric_loss_tangent='0'
+				thermal_conductivity='0.294'
+				mass_density='1900'
+				specific_heat='1150'
+				youngs_modulus='11000000000'
+				poissons_ratio='0.28'
+				thermal_expansion_coefficient='1.5e-05'
+			$end 'FR4_epoxy'
+		$end 'ProjectMaterials'
+		$begin 'InternalPrivateMaterials'
+		$end 'InternalPrivateMaterials'
+	$end 'MaterialMgr'
+	$begin 'Stackuplayerlist'
+		$begin 'StackupLayer'
+			Name='Zero_thickness_air'
+			Type='Substrate'
+			Elevation=0
+			Thickness=0
+			MaterialName=''
+			RelPermittivity=1
+			LossTangent=0
+			Conductivity=0
+			RelPermeability=1
+			MagLossTangent=0
+		$end 'StackupLayer'
+		$begin 'StackupLayer'
+			Name='Cu2#t=fill'
+			Type='Substrate'
+			Elevation=0
+			Thickness=3.5e-05
+			MaterialName='FR4_epoxy'
+			RelPermittivity=4.4
+			LossTangent=0.02
+			Conductivity=0
+			RelPermeability=1
+			MagLossTangent=0
+		$end 'StackupLayer'
+		$begin 'StackupLayer'
+			Name='FR4-TG150'
+			Type='Substrate'
+			Elevation=3.500000000000009e-05
+			Thickness=0.0016
+			MaterialName='FR4_epoxy'
+			RelPermittivity=4.4
+			LossTangent=0.02
+			Conductivity=0
+			RelPermeability=1
+			MagLossTangent=0
+		$end 'StackupLayer'
+		$begin 'StackupLayer'
+			Name='Cu1#t=fill'
+			Type='Substrate'
+			Elevation=0.001635
+			Thickness=3.5e-05
+			MaterialName='FR4_epoxy'
+			RelPermittivity=4.4
+			LossTangent=0.02
+			Conductivity=0
+			RelPermeability=1
+			MagLossTangent=0
+		$end 'StackupLayer'
+		$begin 'StackupLayer'
+			Name='Zero_thickness_air'
+			Type='Substrate'
+			Elevation=0.00167
+			Thickness=0
+			MaterialName=''
+			RelPermittivity=1
+			LossTangent=0
+			Conductivity=0
+			RelPermeability=1
+			MagLossTangent=0
+		$end 'StackupLayer'
+	$end 'Stackuplayerlist'
+$end 'Stackup'

@@ -1,0 +1,134 @@
+$begin 'SolutionKey(SimSetup=6, Instance=\'\', Solution=-2, VersionID=94)'
+	$begin 'ProfileGroup'
+		MajorVer=2024
+		MinorVer=2
+		Name='Solution Process'
+		$begin 'StartInfo'
+			I(1, 'Start Time', '01/11/2026 18:32:03')
+			I(1, 'Host', 'IVAN')
+			I(1, 'Processor', '24')
+			I(1, 'OS', 'NT 10.0')
+			I(1, 'Product', 'HFSS 2024.2.0')
+		$end 'StartInfo'
+		$begin 'TotalInfo'
+			I(1, 'Elapsed Time', '00:01:03')
+			I(1, 'ComEngine Memory', '748 M')
+		$end 'TotalInfo'
+		GroupOptions=8
+		TaskDataOptions(Memory=8)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 1, \'Executing From\', \'D:\\\\v242\\\\Win64\\\\ENSCOMENGINE.exe\')', false, true)
+		$begin 'ProfileGroup'
+			MajorVer=2024
+			MinorVer=2
+			Name='HPC'
+			$begin 'StartInfo'
+				I(1, 'Type', 'Auto')
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(0, ' ')
+			$end 'TotalInfo'
+			GroupOptions=0
+			TaskDataOptions(Memory=8)
+			ProfileItem('Machine', 0, 0, 0, 0, 0, 'I(2, 1, \'Name\', \'IVAN\', 2, \'Cores\', 4, false)', false, true)
+		$end 'ProfileGroup'
+		$begin 'ProfileGroup'
+			MajorVer=2024
+			MinorVer=2
+			Name='Frequency Sweep'
+			$begin 'StartInfo'
+				I(1, 'Time', '01/11/2026 18:32:03')
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(1, 'Elapsed Time', '00:01:03')
+			$end 'TotalInfo'
+			GroupOptions=4
+			TaskDataOptions(Memory=8)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Solution - Sweep1'
+				$begin 'StartInfo'
+					I(0, 'Interpolating PlanarEM Frequency Sweep')
+					I(1, 'Time', '01/11/2026 18:32:03')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(1, 'Elapsed Time', '00:01:03')
+				$end 'TotalInfo'
+				GroupOptions=4
+				TaskDataOptions(Memory=8)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'From 600MHz to 1.2GHz, 301 Frequencies\')', false, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164108, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262040, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317344, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317344, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164224, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262352, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317736, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317736, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 1, Frequency: 1.2GHz; Additional basis points are needed before the interpolation error can be computed.\')', false, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 2, Frequency: 600MHz; Additional basis points are needed before the interpolation error can be computed.\')', false, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164188, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262440, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317764, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317764, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 3, Frequency: 900MHz; S Matrix Error = 157.969%\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 194132, 'I(1, 0, \'Frequency #3;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164008, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262128, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317460, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317460, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 4, Frequency: 1.05GHz; S Matrix Error = 162.179%\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 194284, 'I(1, 0, \'Frequency #4;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164016, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 261928, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317408, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317408, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 5, Frequency: 750MHz; S Matrix Error =  80.895%\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 194540, 'I(1, 0, \'Frequency #5;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164272, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262376, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317744, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317744, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 6, Frequency: 825MHz; S Matrix Error =   1.467%\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 194648, 'I(1, 0, \'Frequency #6;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164212, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 261956, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317504, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317504, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 7, Frequency: 862.5MHz; S Matrix Error =   0.599%\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 296040, 'I(1, 0, \'Frequency #7;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164052, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262064, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317520, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317520, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 8, Frequency: 675MHz; S Matrix Error =   0.342%; Secondary solver criterion is not converged\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 766168, 'I(1, 0, \'Frequency #8;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164180, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 262308, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317692, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317692, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 9, Frequency: 637.5MHz; S Matrix Error =   0.123%; Secondary solver criterion is not converged\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 766108, 'I(1, 0, \'Frequency #9;  Interpolating frequency sweep\')', true, true)
+				ProfileItem('Advanced Settings', 0, 0, 0, 0, 0, 'I(3, 2, \'Accuracy Level\', 2, false, 1, \'Solver\', \'Direct\', 2, \'Cores\', 4, false)', false, true)
+				ProfileItem('Simulation Setup', 0, 0, 0, 0, 164008, 'I(2, 2, \'Matrix Size\', 2140, false, 2, \'Triangles\', 1521, false)', true, true)
+				ProfileItem('Matrix Assembly', 3, 0, 14, 0, 261948, 'I(1, 0, \'\')', true, true)
+				ProfileItem('Matrix Solve', 0, 0, 1, 0, 317336, 'I(0)', true, true)
+				ProfileItem('Post-process solution', 0, 0, 0, 0, 317336, 'I(1, 0, \'\')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, \'Basis Element # 10, Frequency: 618.75MHz; Scattering matrix quantities converged; Passive within tolerance\')', false, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 766136, 'I(1, 0, \'Frequency #10;  Interpolating frequency sweep\')', true, true)
+				ProfileFootnote('I(1, 0, \'Interpolating sweep converged and is passive\')', 0)
+				ProfileFootnote('I(1, 0, \'PlanarEM: Interpolating sweep\')', 0)
+			$end 'ProfileGroup'
+		$end 'ProfileGroup'
+		ProfileFootnote('I(2, 1, \'Stop Time\', \'01/11/2026 18:33:06\', 1, \'Status\', \'Normal Completion\')', 0)
+	$end 'ProfileGroup'
+$end 'SolutionKey(SimSetup=6, Instance=\'\', Solution=-2, VersionID=94)'

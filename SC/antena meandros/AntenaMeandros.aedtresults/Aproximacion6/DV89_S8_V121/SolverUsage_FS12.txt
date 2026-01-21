@@ -1,0 +1,12 @@
+    VersionID HFSS2016
+    Success 1
+    SolverName IESolver
+    IterativeSolver 0
+    DistributedSolver 0
+    Precision 2
+    NumTasks 1
+    NumUnknowns 3582
+    BasisOrder 0
+    TREECOTREE 0
+    MemoryMasterMB 329.042969
+    MemoryTotalMB 329.042969

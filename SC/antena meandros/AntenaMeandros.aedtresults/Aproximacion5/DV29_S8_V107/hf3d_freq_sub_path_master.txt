@@ -1,0 +1,2 @@
+1 1
+1, 843750000.0000002," ","Solution - Sweep1", sfFalse cerFalse tctFalse / -1
