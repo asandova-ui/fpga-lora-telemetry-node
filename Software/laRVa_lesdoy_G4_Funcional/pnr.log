@@ -1,0 +1,540 @@
+Info: Importing module main
+Info: Rule checker, verifying imported design
+Info: Checksum: 0xb5280740
+
+Warning: unmatched constraint 'HSYNC' (on line 10)
+Warning: unmatched constraint 'P2' (on line 11)
+Warning: unmatched constraint 'DTR' (on line 12)
+Warning: unmatched constraint 'CTS' (on line 13)
+Warning: unmatched constraint 'RTS' (on line 15)
+Info: constrained 'TXD' to bel 'X0/Y27/io0'
+Info: constrained 'RXD' to bel 'X0/Y25/io1'
+Warning: unmatched constraint 'GREEN3' (on line 19)
+Warning: unmatched constraint 'GREEN4' (on line 20)
+Warning: unmatched constraint 'GREEN1' (on line 21)
+Warning: unmatched constraint 'GREEN0' (on line 22)
+Warning: unmatched constraint 'BLUE3' (on line 23)
+Warning: unmatched constraint 'BLUE2' (on line 24)
+Warning: unmatched constraint 'BLUE1' (on line 25)
+Warning: unmatched constraint 'BLUE0' (on line 26)
+Info: constrained 'EN_5V_UP' to bel 'X0/Y17/io0'
+Info: constrained 'CLKIN' to bel 'X0/Y16/io1'
+Info: constrained 'EN_5V_M4' to bel 'X0/Y16/io0'
+Warning: unmatched constraint 'P23' (on line 31)
+Info: constrained 'EN_1V4_M4' to bel 'X0/Y12/io0'
+Info: constrained 'M2_ON_OFF' to bel 'X0/Y11/io1'
+Info: constrained 'ADC_CS' to bel 'X0/Y11/io0'
+Warning: unmatched constraint 'SDA' (on line 36)
+Warning: unmatched constraint 'SCL' (on line 37)
+Info: constrained 'BME680_CS' to bel 'X0/Y5/io1'
+Warning: unmatched constraint 'P32' (on line 40)
+Warning: unmatched constraint 'P33' (on line 41)
+Warning: unmatched constraint 'P34' (on line 42)
+Info: constrained 'ICE_SCK' to bel 'X4/Y0/io0'
+Info: constrained 'ICE_MISO' to bel 'X4/Y0/io1'
+Info: constrained 'ICE_MOSI' to bel 'X6/Y0/io1'
+Warning: unmatched constraint 'P41' (on line 50)
+Warning: unmatched constraint 'P42' (on line 51)
+Warning: unmatched constraint 'P43' (on line 52)
+Warning: unmatched constraint 'P44' (on line 53)
+Warning: unmatched constraint 'P45' (on line 54)
+Warning: unmatched constraint 'P47' (on line 56)
+Warning: unmatched constraint 'P48' (on line 57)
+Info: constrained 'RXD1' to bel 'X16/Y0/io1'
+Info: constrained 'TXD1' to bel 'X17/Y0/io0'
+Warning: unmatched constraint 'P55' (on line 61)
+Warning: unmatched constraint 'P56' (on line 62)
+Warning: unmatched constraint 'P60' (on line 64)
+Warning: unmatched constraint 'P61' (on line 65)
+Warning: unmatched constraint 'P62' (on line 66)
+Warning: unmatched constraint 'MB1' (on line 67)
+Warning: unmatched constraint 'MB0' (on line 68)
+Warning: unmatched constraint 'MOSI' (on line 72)
+Warning: unmatched constraint 'MISO' (on line 73)
+Warning: unmatched constraint 'SCK' (on line 75)
+Warning: unmatched constraint 'FSS' (on line 76)
+Warning: unmatched constraint 'TCK' (on line 80)
+Warning: unmatched constraint 'P74' (on line 81)
+Warning: unmatched constraint 'TMS' (on line 82)
+Warning: unmatched constraint 'P76' (on line 83)
+Warning: unmatched constraint 'TDO' (on line 85)
+Warning: unmatched constraint 'TDI' (on line 86)
+Warning: unmatched constraint 'P80' (on line 87)
+Warning: unmatched constraint 'P81' (on line 88)
+Warning: unmatched constraint 'P82' (on line 90)
+Warning: unmatched constraint 'P83' (on line 91)
+Warning: unmatched constraint 'P84' (on line 92)
+Warning: unmatched constraint 'P85' (on line 93)
+Warning: unmatched constraint 'P87' (on line 95)
+Warning: unmatched constraint 'P88' (on line 96)
+Warning: unmatched constraint 'P90' (on line 98)
+Warning: unmatched constraint 'P91' (on line 99)
+Warning: unmatched constraint 'P93' (on line 101)
+Warning: unmatched constraint 'P94' (on line 102)
+Warning: unmatched constraint 'P95' (on line 103)
+Warning: unmatched constraint 'P96' (on line 104)
+Warning: unmatched constraint 'P97' (on line 105)
+Warning: unmatched constraint 'P98' (on line 106)
+Warning: unmatched constraint 'P99' (on line 107)
+Warning: unmatched constraint 'P101' (on line 109)
+Warning: unmatched constraint 'P102' (on line 110)
+Warning: unmatched constraint 'P104' (on line 112)
+Warning: unmatched constraint 'P105' (on line 113)
+Warning: unmatched constraint 'P106' (on line 114)
+Warning: unmatched constraint 'P107' (on line 115)
+Info: constrained 'LORA_MOSI' to bel 'X31/Y33/io1'
+Warning: unmatched constraint 'P112' (on line 121)
+Info: constrained 'LORA_MISO' to bel 'X30/Y33/io1'
+Warning: unmatched constraint 'P114' (on line 123)
+Info: constrained 'LORA_SCK' to bel 'X29/Y33/io1'
+Info: constrained 'LORA_BUSY' to bel 'X29/Y33/io0'
+Info: constrained 'LORA_CS' to bel 'X28/Y33/io1'
+Info: constrained 'LORA_DIO1' to bel 'X27/Y33/io0'
+Info: constrained 'LORA_RESET' to bel 'X26/Y33/io1'
+Warning: unmatched constraint 'P120' (on line 130)
+Info: constrained 'RXD2' to bel 'X25/Y33/io0'
+Warning: unmatched constraint 'P122' (on line 132)
+Info: constrained 'TXD2' to bel 'X20/Y33/io0'
+Warning: unmatched constraint 'P125' (on line 135)
+Info: constrained 'L_RX' to bel 'X17/Y33/io0'
+Warning: unmatched constraint 'P129' (on line 138)
+Info: constrained 'L_TX' to bel 'X11/Y33/io1'
+Warning: unmatched constraint 'P134' (on line 141)
+Warning: unmatched constraint 'VSYNC' (on line 142)
+Info: constrained 'ICE_LED1' to bel 'X7/Y33/io1'
+Info: constrained 'ICE_LED2' to bel 'X7/Y33/io0'
+Info: constrained 'ICE_LED3' to bel 'X6/Y33/io1'
+Info: constrained 'ICE_LED4' to bel 'X6/Y33/io0'
+Warning: unmatched constraint 'RED3' (on line 148)
+Warning: unmatched constraint 'RED2' (on line 149)
+Warning: unmatched constraint 'RED1' (on line 150)
+Warning: unmatched constraint 'RED0' (on line 151)
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:     2761 LCs used as LUT4 only
+Info:      342 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:     1031 LCs used as DFF only
+Info: Packing carries..
+Info:      244 LCs used as CARRY only
+Info: Packing RAMs..
+Info: Placing PLLs..
+Info:   constrained PLL 'pll1.uut' to X16/Y33/pll_3
+Info: Packing special functions..
+Info:   PLL 'pll1.uut' has LOCK output, need to pass all outputs via LUT
+Info:   LUT strategy for LOCK: move all users to new LUT
+Info:   constrained 'pll1.uut_PLL$nextpnr_LOCK_lut_through' to X1/Y32/lc0
+Info: Promoting globals..
+Info: promoting clk (fanout 1435)
+Info: promoting sys1.cpu.q0_SB_LUT4_I2_I3_SB_LUT4_O_I1_SB_LUT4_I3_I2_SB_LUT4_O_I1_SB_LUT4_I1_O [reset] (fanout 128)
+Info: promoting reset [reset] (fanout 71)
+Info: promoting sys1.timer.count_SB_DFFESR_Q_R [reset] (fanout 32)
+Info: promoting $PACKER_GND_NET [cen] (fanout 180)
+Info: promoting sys1.spi0.wr_SB_LUT4_O_I1_SB_LUT4_O_I2_SB_LUT4_I1_O [cen] (fanout 32)
+Info: promoting sys1.cpu.regs[0]_SB_DFFE_Q_E [cen] (fanout 32)
+Info: promoting sys1.cpu.regs[10]_SB_DFFE_Q_E [cen] (fanout 32)
+Info: Constraining chains...
+Info:       72 LCs used to legalise carry chains.
+Info: Checksum: 0xd6cda09a
+
+Info: Annotating ports with timing budgets for target frequency 12.00 MHz
+Info: Checksum: 0xe4e5ddaa
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:  4453/ 7680    57%
+Info: 	        ICESTORM_RAM:    32/   32   100%
+Info: 	               SB_IO:    29/  256    11%
+Info: 	               SB_GB:     8/    8   100%
+Info: 	        ICESTORM_PLL:     1/    2    50%
+Info: 	         SB_WARMBOOT:     0/    1     0%
+
+Info: Placed 31 cells based on constraints.
+Info: Creating initial analytic placement for 3896 cells, random placement wirelen = 119637.
+Info:     at initial placer iter 0, wirelen = 1679
+Info:     at initial placer iter 1, wirelen = 1591
+Info:     at initial placer iter 2, wirelen = 1545
+Info:     at initial placer iter 3, wirelen = 1583
+Info: Running main analytical placer.
+Info:     at iteration #1, type ALL: wirelen solved = 1580, spread = 32698, legal = 40272; time = 0.31s
+Info:     at iteration #2, type ALL: wirelen solved = 3192, spread = 24874, legal = 32526; time = 0.33s
+Info:     at iteration #3, type ALL: wirelen solved = 4767, spread = 24407, legal = 32067; time = 0.32s
+Info:     at iteration #4, type ALL: wirelen solved = 7020, spread = 22842, legal = 31498; time = 0.30s
+Info:     at iteration #5, type ALL: wirelen solved = 8738, spread = 21438, legal = 30557; time = 0.31s
+Info:     at iteration #6, type ALL: wirelen solved = 9906, spread = 20500, legal = 30900; time = 0.29s
+Info:     at iteration #7, type ALL: wirelen solved = 10756, spread = 19554, legal = 29356; time = 0.30s
+Info:     at iteration #8, type ALL: wirelen solved = 11224, spread = 19025, legal = 28897; time = 0.32s
+Info:     at iteration #9, type ALL: wirelen solved = 11866, spread = 18822, legal = 27466; time = 0.30s
+Info:     at iteration #10, type ALL: wirelen solved = 12502, spread = 18970, legal = 29528; time = 0.32s
+Info:     at iteration #11, type ALL: wirelen solved = 13175, spread = 18838, legal = 28875; time = 0.30s
+Info:     at iteration #12, type ALL: wirelen solved = 13447, spread = 18953, legal = 28313; time = 0.28s
+Info:     at iteration #13, type ALL: wirelen solved = 13902, spread = 18966, legal = 28191; time = 0.26s
+Info:     at iteration #14, type ALL: wirelen solved = 14019, spread = 18681, legal = 27326; time = 0.27s
+Info:     at iteration #15, type ALL: wirelen solved = 14248, spread = 19090, legal = 28594; time = 0.27s
+Info:     at iteration #16, type ALL: wirelen solved = 14747, spread = 19110, legal = 28589; time = 0.27s
+Info:     at iteration #17, type ALL: wirelen solved = 14790, spread = 18910, legal = 28111; time = 0.27s
+Info:     at iteration #18, type ALL: wirelen solved = 15105, spread = 19294, legal = 28243; time = 0.27s
+Info:     at iteration #19, type ALL: wirelen solved = 15286, spread = 19351, legal = 28863; time = 0.27s
+Info: HeAP Placer Time: 6.71s
+Info:   of which solving equations: 2.70s
+Info:   of which spreading cells: 0.32s
+Info:   of which strict legalisation: 2.75s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 1441, wirelen = 27326
+Info:   at iteration #5: temp = 0.000000, timing cost = 1633, wirelen = 23209
+Info:   at iteration #10: temp = 0.000000, timing cost = 1616, wirelen = 21384
+Info:   at iteration #15: temp = 0.000000, timing cost = 1560, wirelen = 20436
+Info:   at iteration #20: temp = 0.000000, timing cost = 1524, wirelen = 19770
+Info:   at iteration #25: temp = 0.000000, timing cost = 1487, wirelen = 19357
+Info:   at iteration #30: temp = 0.000000, timing cost = 1485, wirelen = 19198
+Info:   at iteration #33: temp = 0.000000, timing cost = 1474, wirelen = 19128 
+Info: SA placement time 10.65s
+
+Info: Max frequency for clock 'clk_$glb_clk': 21.42 MHz (PASS at 12.00 MHz)
+Info: Clock 'ICE_SCK$SB_IO_OUT' has no interior paths
+Info: Clock 'LORA_SCK$SB_IO_OUT' has no interior paths
+
+Info: Max delay <async>                    -> posedge ICE_SCK$SB_IO_OUT : 1.06 ns
+Info: Max delay <async>                    -> posedge LORA_SCK$SB_IO_OUT: 1.82 ns
+Info: Max delay <async>                    -> posedge clk_$glb_clk      : 11.66 ns
+Info: Max delay posedge ICE_SCK$SB_IO_OUT  -> posedge clk_$glb_clk      : 2.42 ns
+Info: Max delay posedge LORA_SCK$SB_IO_OUT -> posedge clk_$glb_clk      : 2.83 ns
+Info: Max delay posedge clk_$glb_clk       -> <async>                   : 11.26 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 18 endpoint(s)
+Info:          + represents [1,18) endpoint(s)
+Info: [ 18319,  21517) |***+
+Info: [ 21517,  24715) |****+
+Info: [ 24715,  27913) |************************************************************ 
+Info: [ 27913,  31111) |****+
+Info: [ 31111,  34309) |+
+Info: [ 34309,  37507) |*+
+Info: [ 37507,  40705) | 
+Info: [ 40705,  43903) |+
+Info: [ 43903,  47101) |**+
+Info: [ 47101,  50299) |+
+Info: [ 50299,  53497) |*******************+
+Info: [ 53497,  56695) |*******+
+Info: [ 56695,  59893) |**********************+
+Info: [ 59893,  63091) |******+
+Info: [ 63091,  66289) |******************+
+Info: [ 66289,  69487) |****************+
+Info: [ 69487,  72685) |***********************+
+Info: [ 72685,  75883) |*****************+
+Info: [ 75883,  79081) |***************+
+Info: [ 79081,  82279) |********************************+
+Info: Checksum: 0xad8b645a
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 14392 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs
+Info:       1000 |        0        999 |    0   999 |     13393
+Info:       2000 |       11       1988 |   11   989 |     12407
+Info:       3000 |       42       2957 |   31   969 |     11456
+Info:       4000 |       90       3909 |   48   952 |     10535
+Info:       5000 |      179       4820 |   89   911 |      9672
+Info:       6000 |      311       5688 |  132   868 |      8880
+Info:       7000 |      435       6564 |  124   876 |      8112
+Info:       8000 |      582       7417 |  147   853 |      7391
+Info:       9000 |      774       8225 |  192   808 |      6703
+Info:      10000 |      987       9012 |  213   787 |      6156
+Info:      11000 |     1245       9754 |  258   742 |      5662
+Info:      12000 |     1608      10391 |  363   637 |      5341
+Info:      13000 |     1970      11029 |  362   638 |      5041
+Info:      14000 |     2324      11675 |  354   646 |      4721
+Info:      15000 |     2593      12406 |  269   731 |      4347
+Info:      16000 |     2916      13083 |  323   677 |      4050
+Info:      17000 |     3274      13725 |  358   642 |      3834
+Info:      18000 |     3687      14312 |  413   587 |      3616
+Info:      19000 |     4018      14981 |  331   669 |      3476
+Info:      20000 |     4358      15641 |  340   660 |      3114
+Info:      21000 |     4677      16322 |  319   681 |      2820
+Info:      22000 |     5079      16920 |  402   598 |      2614
+Info:      23000 |     5518      17481 |  439   561 |      2551
+Info:      24000 |     5974      18025 |  456   544 |      2549
+Info:      25000 |     6418      18581 |  444   556 |      2449
+Info:      26000 |     6854      19145 |  436   564 |      2222
+Info:      27000 |     7153      19846 |  299   701 |      1868
+Info:      28000 |     7399      20600 |  246   754 |      1333
+Info:      29000 |     7545      21454 |  146   854 |       574
+Info:      30000 |     7859      22140 |  314   686 |       156
+Info:      30270 |     7924      22346 |   65   206 |         0
+Info: Routing complete.
+Info: Route time 31.49s
+Info: Checksum: 0x197a1873
+
+Info: Critical path report for clock 'clk_$glb_clk' (posedge -> negedge):
+Info: curr total
+Info:  0.5  0.5  Source sys1.cpu.IR_SB_DFF_Q_15_DFFLC.O
+Info:  2.0  2.5    Net sys1.cpu.IR[16] budget 2.144000 ns (10,22) -> (7,15)
+Info:                Sink sys1.cpu.rs1_SB_LUT4_O_2_LC.I3
+Info:  0.3  2.8  Source sys1.cpu.rs1_SB_LUT4_O_2_LC.O
+Info:  0.6  3.4    Net sys1.cpu.rs1[1] budget 1.474000 ns (7,15) -> (7,14)
+Info:                Sink sys1.cpu.rs1_SB_CARRY_CI$CARRY.I1
+Info:  0.3  3.7  Source sys1.cpu.rs1_SB_CARRY_CI$CARRY.COUT
+Info:  0.3  3.9    Net sys1.cpu.rs1_SB_CARRY_CI_CO[2] budget 0.260000 ns (7,14) -> (7,14)
+Info:                Sink sys1.cpu.rs1_SB_LUT4_I1_1_LC.I3
+Info:  0.3  4.2  Source sys1.cpu.rs1_SB_LUT4_I1_1_LC.O
+Info:  2.8  7.0    Net sys1.cpu.rs1_SB_LUT4_I1_1_O budget 1.806000 ns (7,14) -> (9,31)
+Info:                Sink sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_O_LC.I1
+Info:  0.4  7.4  Source sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_O_LC.O
+Info:  0.6  8.0    Net sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_I1_SB_LUT4_O_I3 budget 1.474000 ns (9,31) -> (9,30)
+Info:                Sink sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_I1_SB_LUT4_O_LC.I3
+Info:  0.3  8.3  Source sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_I1_SB_LUT4_O_LC.O
+Info:  0.6  8.9    Net sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_I1 budget 1.182000 ns (9,30) -> (9,29)
+Info:                Sink sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_LC.I1
+Info:  0.4  9.3  Source sys1.cpu.aluIn1_SB_LUT4_O_2_I0_SB_LUT4_O_LC.O
+Info:  0.6  9.9    Net sys1.cpu.aluIn1_SB_LUT4_O_2_I0 budget 1.587000 ns (9,29) -> (10,29)
+Info:                Sink sys1.cpu.regsQ1_SB_LUT4_O_2_LC.I1
+Info:  0.4 10.3  Source sys1.cpu.regsQ1_SB_LUT4_O_2_LC.O
+Info:  1.7 12.0    Net sys1.cpu.regsQ1[0] budget 2.369000 ns (10,29) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_27$CARRY.I1
+Info:  0.3 12.2  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_27$CARRY.COUT
+Info:  0.0 12.2    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[1] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_16$CARRY.CIN
+Info:  0.1 12.4  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_16$CARRY.COUT
+Info:  0.0 12.4    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[2] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_LC.CIN
+Info:  0.1 12.5  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_LC.COUT
+Info:  0.0 12.5    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[3] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_6_LC.CIN
+Info:  0.1 12.6  Source sys1.cpu.ldstaddr_SB_LUT4_O_6_LC.COUT
+Info:  0.0 12.6    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[4] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_5_LC.CIN
+Info:  0.1 12.7  Source sys1.cpu.ldstaddr_SB_LUT4_O_5_LC.COUT
+Info:  0.0 12.7    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[5] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_4_LC.CIN
+Info:  0.1 12.9  Source sys1.cpu.ldstaddr_SB_LUT4_O_4_LC.COUT
+Info:  0.0 12.9    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[6] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_3_LC.CIN
+Info:  0.1 13.0  Source sys1.cpu.ldstaddr_SB_LUT4_O_3_LC.COUT
+Info:  0.0 13.0    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[7] budget 0.000000 ns (10,18) -> (10,18)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_2_LC.CIN
+Info:  0.1 13.1  Source sys1.cpu.ldstaddr_SB_LUT4_O_2_LC.COUT
+Info:  0.2 13.3    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[8] budget 0.190000 ns (10,18) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_1_LC.CIN
+Info:  0.1 13.4  Source sys1.cpu.ldstaddr_SB_LUT4_O_1_LC.COUT
+Info:  0.0 13.4    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[9] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_LC.CIN
+Info:  0.1 13.6  Source sys1.cpu.ldstaddr_SB_LUT4_O_LC.COUT
+Info:  0.0 13.6    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[10] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_14_LC.CIN
+Info:  0.1 13.7  Source sys1.cpu.ldstaddr_SB_LUT4_O_14_LC.COUT
+Info:  0.0 13.7    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[11] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_13_LC.CIN
+Info:  0.1 13.8  Source sys1.cpu.ldstaddr_SB_LUT4_O_13_LC.COUT
+Info:  0.0 13.8    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[12] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_12_LC.CIN
+Info:  0.1 13.9  Source sys1.cpu.ldstaddr_SB_LUT4_O_12_LC.COUT
+Info:  0.0 13.9    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[13] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_11_LC.CIN
+Info:  0.1 14.1  Source sys1.cpu.ldstaddr_SB_LUT4_O_11_LC.COUT
+Info:  0.0 14.1    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[14] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_22$CARRY.CIN
+Info:  0.1 14.2  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_22$CARRY.COUT
+Info:  0.0 14.2    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[15] budget 0.000000 ns (10,19) -> (10,19)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_21$CARRY.CIN
+Info:  0.1 14.3  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_21$CARRY.COUT
+Info:  0.2 14.5    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[16] budget 0.190000 ns (10,19) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_20$CARRY.CIN
+Info:  0.1 14.6  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_20$CARRY.COUT
+Info:  0.0 14.6    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[17] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_19$CARRY.CIN
+Info:  0.1 14.8  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_19$CARRY.COUT
+Info:  0.0 14.8    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[18] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_18$CARRY.CIN
+Info:  0.1 14.9  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_18$CARRY.COUT
+Info:  0.0 14.9    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[19] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_17$CARRY.CIN
+Info:  0.1 15.0  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_17$CARRY.COUT
+Info:  0.0 15.0    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[20] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_15$CARRY.CIN
+Info:  0.1 15.1  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_15$CARRY.COUT
+Info:  0.0 15.1    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[21] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_14$CARRY.CIN
+Info:  0.1 15.3  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_14$CARRY.COUT
+Info:  0.0 15.3    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[22] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_13$CARRY.CIN
+Info:  0.1 15.4  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_13$CARRY.COUT
+Info:  0.0 15.4    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[23] budget 0.000000 ns (10,20) -> (10,20)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_12$CARRY.CIN
+Info:  0.1 15.5  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_12$CARRY.COUT
+Info:  0.2 15.7    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[24] budget 0.190000 ns (10,20) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_11$CARRY.CIN
+Info:  0.1 15.8  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_11$CARRY.COUT
+Info:  0.0 15.8    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[25] budget 0.000000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_10$CARRY.CIN
+Info:  0.1 16.0  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_10$CARRY.COUT
+Info:  0.0 16.0    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[26] budget 0.000000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_9$CARRY.CIN
+Info:  0.1 16.1  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_9$CARRY.COUT
+Info:  0.0 16.1    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[27] budget 0.000000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_8$CARRY.CIN
+Info:  0.1 16.2  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_8$CARRY.COUT
+Info:  0.0 16.2    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[28] budget 0.000000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_7$CARRY.CIN
+Info:  0.1 16.3  Source sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO_SB_CARRY_CO_7$CARRY.COUT
+Info:  0.0 16.3    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[29] budget 0.000000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_10_LC.CIN
+Info:  0.1 16.5  Source sys1.cpu.ldstaddr_SB_LUT4_O_10_LC.COUT
+Info:  0.0 16.5    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[30] budget 0.000000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_8_LC.CIN
+Info:  0.1 16.6  Source sys1.cpu.ldstaddr_SB_LUT4_O_8_LC.COUT
+Info:  0.3 16.9    Net sys1.cpu.ldstaddr_SB_LUT4_O_9_I2_SB_CARRY_I1_CO[31] budget 0.260000 ns (10,21) -> (10,21)
+Info:                Sink sys1.cpu.ldstaddr_SB_LUT4_O_7_LC.I3
+Info:  0.3 17.2  Source sys1.cpu.ldstaddr_SB_LUT4_O_7_LC.O
+Info:  0.6 17.8    Net sys1.cpu.ldstaddr[31] budget 1.856000 ns (10,21) -> (11,21)
+Info:                Sink sys1.cpu.q0_SB_LUT4_I2_I3_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_I1_2_O_SB_LUT4_I1_1_LC.I3
+Info:  0.3 18.1  Source sys1.cpu.q0_SB_LUT4_I2_I3_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_I1_2_O_SB_LUT4_I1_1_LC.O
+Info:  0.6 18.7    Net sys1.cpu.q0_SB_LUT4_I2_I3_SB_LUT4_O_I1_SB_LUT4_O_I3_SB_LUT4_I1_2_O_SB_LUT4_I1_1_O budget 1.567000 ns (11,21) -> (12,21)
+Info:                Sink sys1.cpu.rdata_SB_LUT4_O_I0_SB_LUT4_O_I0_SB_DFFNE_Q_E_SB_LUT4_O_LC.I1
+Info:  0.4 19.1  Source sys1.cpu.rdata_SB_LUT4_O_I0_SB_LUT4_O_I0_SB_DFFNE_Q_E_SB_LUT4_O_LC.O
+Info:  0.6 19.6    Net sys1.cpu.rdata_SB_LUT4_O_I0_SB_LUT4_O_I0_SB_DFFNE_Q_E budget 1.594000 ns (12,21) -> (12,20)
+Info:                Sink sys1.ram0.ram_array.0.1.0_RCLKE_SB_LUT4_O_LC.I2
+Info:  0.4 20.0  Source sys1.ram0.ram_array.0.1.0_RCLKE_SB_LUT4_O_LC.O
+Info:  1.9 21.9    Net sys1.ram0.ram_array.0.1.0_RCLKE budget 1.562000 ns (12,20) -> (24,16)
+Info:                Sink sys1.ram0.ram_array.4.1.0_WCLKE_SB_LUT4_O_LC.I3
+Info:  0.3 22.2  Source sys1.ram0.ram_array.4.1.0_WCLKE_SB_LUT4_O_LC.O
+Info:  2.0 24.3    Net sys1.ram0.ram_array.4.1.0_WCLKE budget 1.350000 ns (24,16) -> (25,7)
+Info:                Sink sys1.ram0.ram_array.6.1.0_RAM.WCLKE
+Info:  0.1 24.4  Setup sys1.ram0.ram_array.6.1.0_RAM.WCLKE
+Info: 8.8 ns logic, 15.6 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge ICE_SCK$SB_IO_OUT':
+Info: curr total
+Info:  0.0  0.0  Source ICE_MISO$sb_io.D_IN_0
+Info:  0.6  0.6    Net ICE_MISO$SB_IO_IN budget 82.864998 ns (4,0) -> (5,1)
+Info:                Sink sys1.spi0.sin_SB_DFF_Q_DFFLC.I0
+Info:  0.5  1.1  Setup sys1.spi0.sin_SB_DFF_Q_DFFLC.I0
+Info: 0.5 ns logic, 0.6 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge LORA_SCK$SB_IO_OUT':
+Info: curr total
+Info:  0.0  0.0  Source LORA_MISO$sb_io.D_IN_0
+Info:  1.3  1.3    Net LORA_MISO$SB_IO_IN budget 82.864998 ns (30,33) -> (27,31)
+Info:                Sink sys1.spi1.sin_SB_DFF_Q_DFFLC.I0
+Info:  0.5  1.7  Setup sys1.spi1.sin_SB_DFF_Q_DFFLC.I0
+Info: 0.5 ns logic, 1.3 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge clk_$glb_clk':
+Info: curr total
+Info:  0.0  0.0  Source LORA_BUSY$sb_io.D_IN_0
+Info:  2.3  2.3    Net LORA_BUSY$SB_IO_IN budget 10.021000 ns (29,33) -> (16,30)
+Info:                Sink LORA_BUSY_SB_LUT4_I0_LC.I0
+Info:  0.4  2.7  Source LORA_BUSY_SB_LUT4_I0_LC.O
+Info:  0.6  3.3    Net LORA_BUSY_SB_LUT4_I0_O budget 3.112000 ns (16,30) -> (16,29)
+Info:                Sink LORA_BUSY_SB_LUT4_I0_O_SB_LUT4_I1_LC.I1
+Info:  0.4  3.7  Source LORA_BUSY_SB_LUT4_I0_O_SB_LUT4_I1_LC.O
+Info:  0.6  4.3    Net sys1.cpu.rdata_SB_LUT4_O_31_I3_SB_LUT4_O_I3 budget 3.112000 ns (16,29) -> (15,29)
+Info:                Sink sys1.cpu.rdata_SB_LUT4_O_31_I3_SB_LUT4_O_LC.I3
+Info:  0.3  4.6  Source sys1.cpu.rdata_SB_LUT4_O_31_I3_SB_LUT4_O_LC.O
+Info:  0.6  5.2    Net sys1.cpu.rdata_SB_LUT4_O_31_I3 budget 3.237000 ns (15,29) -> (14,29)
+Info:                Sink sys1.cpu.rdata_SB_LUT4_O_31_LC.I3
+Info:  0.3  5.5  Source sys1.cpu.rdata_SB_LUT4_O_31_LC.O
+Info:  1.6  7.1    Net sys1.cdi[0] budget 3.193000 ns (14,29) -> (10,28)
+Info:                Sink sys1.cpu.regsD_SB_LUT4_O_8_I0_SB_LUT4_O_I1_SB_LUT4_O_LC.I2
+Info:  0.4  7.5  Source sys1.cpu.regsD_SB_LUT4_O_8_I0_SB_LUT4_O_I1_SB_LUT4_O_LC.O
+Info:  0.6  8.1    Net sys1.cpu.regsD_SB_LUT4_O_8_I0_SB_LUT4_O_I1 budget 2.828000 ns (10,28) -> (10,28)
+Info:                Sink sys1.cpu.regsD_SB_LUT4_O_8_I0_SB_LUT4_O_LC.I1
+Info:  0.4  8.5  Source sys1.cpu.regsD_SB_LUT4_O_8_I0_SB_LUT4_O_LC.O
+Info:  1.2  9.7    Net sys1.cpu.regsD_SB_LUT4_O_8_I0 budget 3.111000 ns (10,28) -> (7,28)
+Info:                Sink sys1.cpu.regsD_SB_LUT4_O_8_LC.I0
+Info:  0.4 10.1  Source sys1.cpu.regsD_SB_LUT4_O_8_LC.O
+Info:  1.6 11.7    Net sys1.cpu.regsD[0] budget 3.176000 ns (7,28) -> (9,32)
+Info:                Sink sys1.cpu.regs[7]_SB_DFFE_Q_31_DFFLC.I0
+Info:  0.5 12.2  Setup sys1.cpu.regs[7]_SB_DFFE_Q_31_DFFLC.I0
+Info: 3.2 ns logic, 9.0 ns routing
+
+Info: Critical path report for cross-domain path 'posedge ICE_SCK$SB_IO_OUT' -> 'posedge clk_$glb_clk':
+Info: curr total
+Info:  0.5  0.5  Source sys1.spi0.sin_SB_DFF_Q_DFFLC.O
+Info:  1.6  2.2    Net sys1.spi0.sin budget 82.458000 ns (5,1) -> (7,7)
+Info:                Sink sys1.spi0.sin_SB_LUT4_I3_LC.I3
+Info:  0.3  2.5  Setup sys1.spi0.sin_SB_LUT4_I3_LC.I3
+Info: 0.9 ns logic, 1.6 ns routing
+
+Info: Critical path report for cross-domain path 'posedge LORA_SCK$SB_IO_OUT' -> 'posedge clk_$glb_clk':
+Info: curr total
+Info:  0.5  0.5  Source sys1.spi1.sin_SB_DFF_Q_DFFLC.O
+Info:  1.9  2.5    Net sys1.spi1.sin budget 82.458000 ns (27,31) -> (15,29)
+Info:                Sink sys1.spi1.sin_SB_LUT4_I3_LC.I3
+Info:  0.3  2.8  Setup sys1.spi1.sin_SB_LUT4_I3_LC.I3
+Info: 0.9 ns logic, 1.9 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk_$glb_clk' -> '<async>':
+Info: curr total
+Info:  0.5  0.5  Source sys1.spicontrol1_SB_DFFE_Q_5_DFFLC.O
+Info:  0.9  1.4    Net LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3[1] budget 10.533000 ns (20,23) -> (18,23)
+Info:                Sink $nextpnr_ICESTORM_LC_1.I1
+Info:  0.3  1.7  Source $nextpnr_ICESTORM_LC_1.COUT
+Info:  0.0  1.7    Net $nextpnr_ICESTORM_LC_1$O budget 0.000000 ns (18,23) -> (18,23)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_LC.CIN
+Info:  0.1  1.8  Source LORA_MOSI_SB_LUT4_O_I2_SB_LUT4_O_I3_SB_LUT4_O_LC.COUT
+Info:  0.0  1.8    Net LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3[2] budget 0.000000 ns (18,23) -> (18,23)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_LC.CIN
+Info:  0.1  2.0  Source LORA_MOSI_SB_LUT4_O_I2_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_LC.COUT
+Info:  0.0  2.0    Net LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3[3] budget 0.000000 ns (18,23) -> (18,23)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_LC.CIN
+Info:  0.1  2.1  Source LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_LC.COUT
+Info:  0.3  2.3    Net LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3[4] budget 0.260000 ns (18,23) -> (18,23)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_I3_LC.I3
+Info:  0.3  2.7  Source LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_I3_LC.O
+Info:  1.3  3.9    Net LORA_MOSI_SB_LUT4_O_I3_SB_LUT4_O_I3_SB_LUT4_I3_O budget 10.856000 ns (18,23) -> (15,24)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_O_LC.I1
+Info:  0.4  4.3  Source LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_I0_SB_LUT4_O_LC.O
+Info:  0.6  4.9    Net LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_I0 budget 10.533000 ns (15,24) -> (15,24)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_LC.I0
+Info:  0.4  5.4  Source LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O_LC.O
+Info:  0.6  6.0    Net LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_I1 budget 10.533000 ns (15,24) -> (15,24)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_LC.I1
+Info:  0.4  6.3  Source LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_LC.O
+Info:  0.6  6.9    Net LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_I2 budget 10.609000 ns (15,24) -> (16,24)
+Info:                Sink LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_LC.I2
+Info:  0.4  7.3  Source LORA_MOSI_SB_LUT4_O_I0_SB_LUT4_O_LC.O
+Info:  1.0  8.3    Net LORA_MOSI_SB_LUT4_O_I0 budget 10.725000 ns (16,24) -> (16,23)
+Info:                Sink LORA_MOSI_SB_LUT4_O_LC.I0
+Info:  0.4  8.7  Source LORA_MOSI_SB_LUT4_O_LC.O
+Info:  2.8 11.5    Net LORA_MOSI$SB_IO_OUT budget 11.395000 ns (16,23) -> (31,33)
+Info:                Sink LORA_MOSI$sb_io.D_OUT_0
+Info: 3.6 ns logic, 8.0 ns routing
+
+Info: Max frequency for clock 'clk_$glb_clk': 20.50 MHz (PASS at 12.00 MHz)
+Info: Clock 'ICE_SCK$SB_IO_OUT' has no interior paths
+Info: Clock 'LORA_SCK$SB_IO_OUT' has no interior paths
+
+Info: Max delay <async>                    -> posedge ICE_SCK$SB_IO_OUT : 1.06 ns
+Info: Max delay <async>                    -> posedge LORA_SCK$SB_IO_OUT: 1.75 ns
+Info: Max delay <async>                    -> posedge clk_$glb_clk      : 12.20 ns
+Info: Max delay posedge ICE_SCK$SB_IO_OUT  -> posedge clk_$glb_clk      : 2.52 ns
+Info: Max delay posedge LORA_SCK$SB_IO_OUT -> posedge clk_$glb_clk      : 2.79 ns
+Info: Max delay posedge clk_$glb_clk       -> <async>                   : 11.52 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 17 endpoint(s)
+Info:          + represents [1,17) endpoint(s)
+Info: [ 17274,  20525) |***+
+Info: [ 20525,  23776) |*******+
+Info: [ 23776,  27027) |************************************************************ 
+Info: [ 27027,  30278) |******+
+Info: [ 30278,  33529) |+
+Info: [ 33529,  36780) |*+
+Info: [ 36780,  40031) | 
+Info: [ 40031,  43282) |+
+Info: [ 43282,  46533) |**+
+Info: [ 46533,  49784) |+
+Info: [ 49784,  53035) |************************+
+Info: [ 53035,  56286) |********+
+Info: [ 56286,  59537) |***********************+
+Info: [ 59537,  62788) |********+
+Info: [ 62788,  66039) |***********+
+Info: [ 66039,  69290) |***********************+
+Info: [ 69290,  72541) |************************+
+Info: [ 72541,  75792) |*****+
+Info: [ 75792,  79043) |*****************************+
+Info: [ 79043,  82294) |*********************************+
+78 warnings, 0 errors

@@ -1,0 +1,176 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(muldi3.o)
+                              C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o (__mulsi3)
+c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(div.o)
+                              C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o (__divsi3)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000000000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x3222
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.boot)
+ .boot          0x0000000000000000        0x4 C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+ *(.text)
+ .text          0x0000000000000004       0x68 C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+                0x0000000000000060                delay_loop
+ .text          0x000000000000006c     0x23a0 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+                0x000000000000006c                irq1_handler
+                0x00000000000000d0                irq2_handler
+                0x0000000000000120                irq3_handler
+                0x000000000000013c                irq5_handler
+                0x000000000000018c                irq6_handler
+                0x00000000000001dc                irq7_handler
+                0x000000000000022c                _getch1
+                0x0000000000000248                GPS_LatLon
+                0x0000000000000510                spixfer
+                0x0000000000000534                writeBME680
+                0x0000000000000580                startBME680
+                0x00000000000005f0                readBME680
+                0x0000000000000630                returnTemp
+                0x0000000000000744                returnPressure
+                0x00000000000009fc                returnHumidity
+                0x0000000000000c30                spixfer1
+                0x0000000000000c54                MCP3004_Read
+                0x0000000000000c6c                GP2Y1010_Raw
+                0x0000000000000cd8                MCP3004_DifferentialRead
+                0x0000000000000cf0                MCP3004_ReadMultiple
+                0x0000000000000d44                MCP3004_Read_Reg
+                0x0000000000000d48                _putch
+                0x000000000000121c                _printf
+                0x0000000000001258                procesaCadena
+                0x000000000000140c                read_GPS
+                0x00000000000014b8                irq4_handler
+                0x0000000000001520                SPI_TRANSFER_BUF
+                0x00000000000015f4                SX1262_updateModulationParameters
+                0x0000000000001720                SX1262_configSetPreset
+                0x00000000000017d0                SX1262_configSetBandwidth
+                0x0000000000001818                SX1262_configSetCodingRate
+                0x0000000000001850                SX1262_configSetSpreadingFactor
+                0x000000000000192c                SX1262_configSetFrequency
+                0x0000000000001950                SX1262_Init
+                0x0000000000001c18                SX1262_waitForRadioCommandCompletion
+                0x0000000000001d3c                SX1262_transmit
+                0x0000000000001f10                SX1262_setModeReceive
+                0x0000000000002004                SX1262_lora_receive_async
+                0x00000000000021e0                SX1262_lora_receive_blocking
+                0x0000000000002270                _sprintf
+                0x00000000000022a8                _puts
+                0x00000000000022dc                _getch
+                0x00000000000022f8                haschar
+                0x0000000000002308                _getchUART0
+                0x000000000000234c                _getchUART1
+                0x0000000000002390                getMEPC
+                0x000000000000239c                irq0_handler
+ .text          0x000000000000240c       0x24 c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(muldi3.o)
+                0x000000000000240c                __mulsi3
+ .text          0x0000000000002430       0xb4 c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(div.o)
+                0x0000000000002430                __divsi3
+                0x0000000000002438                __udivsi3
+                0x0000000000002438                __hidden___udivsi3
+                0x0000000000002480                __umodsi3
+                0x00000000000024b4                __modsi3
+ *(.text*)
+ .text.startup  0x00000000000024e4      0x66c C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+                0x00000000000024e4                main
+ *(.rodata)
+ .rodata        0x0000000000002b50       0x60 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+ *(.rodata*)
+ .rodata.str1.4
+                0x0000000000002bb0      0x672 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+                                        0x67a (size before relaxing)
+ *(.srodata)
+ *(.srodata*)
+                0x0000000000003222                _etext = .
+                0x0000000000003222                _sidata = _etext
+
+.rela.dyn       0x0000000000003224        0x0
+ .rela.text     0x0000000000003224        0x0 C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+
+.data           0x0000000000003224       0x24
+                0x0000000000003224                . = ALIGN (0x4)
+                0x0000000000003224                _sdata_values = LOADADDR (.data)
+                0x0000000000003224                _sdata = .
+                0x0000000000003224                _ram_start = .
+                0x0000000000003224                . = ALIGN (0x4)
+ *(.data)
+ .data          0x0000000000003224        0x0 C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+ .data          0x0000000000003224       0x20 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+ .data          0x0000000000003244        0x0 c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(muldi3.o)
+ .data          0x0000000000003244        0x0 c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(div.o)
+ *(.data*)
+ *(.sdata)
+ .sdata         0x0000000000003244        0x4 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+ *(.sdata*)
+                0x0000000000003248                . = ALIGN (0x4)
+                0x0000000000003248                _edata = .
+
+.bss            0x0000000000003248      0x494
+                0x0000000000003248                . = ALIGN (0x4)
+                0x0000000000003248                _sbss = .
+ *(.bss)
+ .bss           0x0000000000003248        0x0 C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+ .bss           0x0000000000003248      0x468 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+                0x0000000000003248                udat
+                0x0000000000003268                SX1262_spiBuff
+                0x0000000000003288                udat1
+                0x00000000000032a8                trama_GPS
+                0x0000000000003690                udat2
+ .bss           0x00000000000036b0        0x0 c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(muldi3.o)
+ .bss           0x00000000000036b0        0x0 c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(div.o)
+ *(.bss*)
+ *(.sbss)
+ .sbss          0x00000000000036b0       0x2a C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+                0x00000000000036b0                debug
+                0x00000000000036b4                iii
+                0x00000000000036b8                SX1262_inReceiveMode
+                0x00000000000036bc                SX1262_transmitTimeout
+                0x00000000000036c0                SX1262_lowDataRateOptimize
+                0x00000000000036c1                SX1262_spreadingFactor
+                0x00000000000036c2                SX1262_codingRate
+                0x00000000000036c3                SX1262_bandwidth
+                0x00000000000036c4                SX1262_pllFrequency
+                0x00000000000036c8                SX1262_signalRssi
+                0x00000000000036cc                SX1262_snr
+                0x00000000000036d0                SX1262_rssi
+                0x00000000000036d4                wrix2
+                0x00000000000036d5                rdix2
+                0x00000000000036d6                wrix1
+                0x00000000000036d7                rdix1
+                0x00000000000036d8                wrix
+                0x00000000000036d9                rdix
+ *(.sbss*)
+ *(COMMON)
+                0x00000000000036dc                . = ALIGN (0x4)
+ *fill*         0x00000000000036da        0x2 
+                0x00000000000036dc                _ebss = .
+
+.heap           0x00000000000036dc        0x0
+                0x00000000000036dc                . = ALIGN (0x4)
+                0x00000000000036dc                _heap_start = .
+LOAD C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+LOAD C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+LOAD c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a
+OUTPUT(code.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x20
+ .riscv.attributes
+                0x0000000000000000       0x1a C:\Users\ivanh\AppData\Local\Temp\cckHzFvw.o
+ .riscv.attributes
+                0x000000000000001a       0x20 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+ .riscv.attributes
+                0x000000000000003a       0x1a c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(muldi3.o)
+ .riscv.attributes
+                0x0000000000000054       0x1a c:/tp1_rv32e/tools/xpack-risc_v/bin/../lib/gcc/riscv-none-elf/12.2.0/rv32e/ilp32e\libgcc.a(div.o)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 C:\Users\ivanh\AppData\Local\Temp\ccnYnQm2.o
+                                         0x34 (size before relaxing)
