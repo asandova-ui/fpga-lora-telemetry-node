@@ -56,7 +56,6 @@ Two antennas were designed, built and measured with a NanoVNA, both simulated in
 
 The link itself ran at 14 dBm, BW 125 kHz, SF 9, CR 4/7, interrupt-driven reception on `DIO1`, first between two Arduino-hosted modules to validate the configuration and then from the node. A coverage study (rooftop and street-level transmitter, link budget) sizes the range.
 
-My part: the SE and SC work with the group, the antenna measurements and simulation reviews, and the rooftop coverage calculation; the radio and sensor firmware was shared across the five of us.
 
 ## Layout
 
